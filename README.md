@@ -23,9 +23,9 @@ This Python program demonstrates basic list manipulation operations, including c
 
 ## Example Usage
 
-#Create an instance of mylist with 5 elements
+```python
+ #Create an instance of mylist with 5 elements
 A = mylist(5)
-
 #Set elements at specific indices
 A.set(2, 7)
 A.set(3, 8)
@@ -45,10 +45,11 @@ C = A.add(B)
 print(type(C))
 C.show()
 
+```
 
 ## Explanation
-1. Initialization: Create two lists, A and B, each with 5 elements.
-2. Set Elements: Modify specific elements in both lists.
-3. Show List: Display the contents of list B.
-4. Add Lists: Create a new list C by adding corresponding elements of A and B.
-5. Display Result: Show the contents of the resultant list C.
+1. **Initialization: Create two lists, A and B, each with 5 elements.**
+2. **Set Elements: Modify specific elements in both lists.**
+3. **Show List: Display the contents of list B.**
+4. **Add Lists: Create a new list C by adding corresponding elements of A and B.**
+5. **Display Result: Show the contents of the resultant list C.**
