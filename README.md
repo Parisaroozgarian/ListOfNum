@@ -23,12 +23,10 @@ This Python program demonstrates basic list manipulation operations, including c
 
 ## Example Usage
 
-python
-Copy code
-# Create an instance of mylist with 5 elements
+#Create an instance of mylist with 5 elements
 A = mylist(5)
 
-# Set elements at specific indices
+#Set elements at specific indices
 A.set(2, 7)
 A.set(3, 8)
 
