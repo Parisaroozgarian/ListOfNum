@@ -24,7 +24,7 @@ This Python program demonstrates basic list manipulation operations, including c
 ## Example Usage
 
 ```python
- #Create an instance of mylist with 5 elements
+#Create an instance of mylist with 5 elements
 A = mylist(5)
 #Set elements at specific indices
 A.set(2, 7)
@@ -44,7 +44,6 @@ print('C:')
 C = A.add(B)
 print(type(C))
 C.show()
-
 ```
 
 ## Explanation
