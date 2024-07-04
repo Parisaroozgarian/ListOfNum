@@ -10,8 +10,8 @@ This Python program demonstrates basic list manipulation operations, including c
 - Delete Element: Remove an element at a specific index from the list.
 - Add Lists: Add elements of two lists of the same size and return a new list with the result.
 
-# Class: mylist
-Methods
+## Class: mylist
+### Methods
 - __init__(self, n): Initializes the list with n elements, all set to 0.
 - changesize(self): Updates the size attribute to reflect the current list size.
 - set(self, n, x): Sets the element at index n to x.
@@ -23,6 +23,8 @@ Methods
 
 ## Example Usage
 
+python
+Copy code
 # Create an instance of mylist with 5 elements
 A = mylist(5)
 
@@ -52,13 +54,3 @@ C.show()
 3. Show List: Display the contents of list B.
 4. Add Lists: Create a new list C by adding corresponding elements of A and B.
 5. Display Result: Show the contents of the resultant list C.
-
-## Getting Started
-To get started, clone this repository and run the provided example code to see how the class and its methods work.
-
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-python your-script-name.py
-
-
-Replace yourusername, your-repo-name, and your-script-name with your actual GitHub username, repository name, and the name of your Python script, respectively.
